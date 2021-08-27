@@ -11,3 +11,4 @@ rm -rf bookkeeper-server-$version-bin.tar.gz
 ENV BOOKKEEPER_HOME /opt/sh/bookkeeper
 
 WORKDIR /opt/sh/bookkeeper
+USER root
