@@ -1,6 +1,6 @@
-FROM ttbb/base:jdk11
+FROM ttbb/base:jdk17
 
-ARG version=4.14.1
+ARG version=4.14.3
 
 RUN wget https://downloads.apache.org/bookkeeper/bookkeeper-$version/bookkeeper-server-$version-bin.tar.gz  && \
 mkdir -p /opt/sh/bookkeeper && \
